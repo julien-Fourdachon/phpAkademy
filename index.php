@@ -24,9 +24,12 @@ require("config.php");
 <body>
     <div class="container">
 
-        <?php require "jeu.php"; ?>
-        <?php require "login.php"; ?>
+    <div class="container">
+        <?php require "navbar.php" ?>
         <?= "Vous avez visité cette page " .  $_SESSION['count'] . " fois"; ?>
+    </div>
+       
+        
     </div>
 </body>
 </html>
